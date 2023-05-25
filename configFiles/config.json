@@ -1,0 +1,20 @@
+{	
+	"mail": {
+		"message": {
+			"from": "Sender <sender@mail.com>",
+			"subject": "subject"
+		},
+		"smtp": {
+			"server": "smtp.server.com",
+			"user": "sender@mail.com",
+			"password": "passwordHere",
+			"port": 69
+		},
+		"recipients": [
+			{				
+				"mail": "recipient@mail.com",
+				"type": "to"
+			}
+		]
+	}
+}

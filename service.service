@@ -1,0 +1,10 @@
+[Unit]
+Description=service
+
+[Service]
+WorkingDirectory=YourDirHere
+User=YourUserHere
+ExecStart=/usr/bin/python YourDirHere/main.py
+
+[Install]
+WantedBy=multi-user.target
