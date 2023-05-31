@@ -1,9 +1,7 @@
 import json
 
 configFile = open("configFiles/config.json")
-
-def loadConfig():
-	return json.load(configFile)
+config = json.load(configFile)
 
 def unloadConfig():
 	configFile.close()
