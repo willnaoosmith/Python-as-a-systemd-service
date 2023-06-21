@@ -28,3 +28,6 @@ systemctl daemon-reload
 sudo systemctl start YourServiceNameHere
 sudo systemctl status YourServiceNameHere
 ```
+
+# Todo
+1. Pooling on the MySQL connector, as made [here](https://stackoverflow.com/questions/32658679/how-to-create-a-mysql-connection-pool-or-any-better-way-to-initialize-the-multip)
